@@ -16,11 +16,13 @@ body
 }
 
 /* Sets the background image for the wheel */
-td.the_wheel
+.the_wheel
 {
     background-image: url(./wheel_back.png);
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 700px 900px;
 }
 
 /* Do some css reset on selected elements */
