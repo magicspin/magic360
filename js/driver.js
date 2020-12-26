@@ -15,12 +15,12 @@ var count = 0;
                 [  
                    {'fillStyle' : '#f6989d', 'text' : '5'},
                    {'fillStyle' : '#f26522', 'text' : '100'},
-                   {'fillStyle' : '#3cb878', 'text' : '500'},
+                   {'fillStyle' : '#3cb878', 'text' : '75'},
                    {'fillStyle' : '#00cef0', 'text' : '15'},
                    {'fillStyle' : '#a186be', 'text' : '200'},
                    {'fillStyle' : '#fff200', 'text' : '50'},
-                   {'fillStyle' : '#00aef0', 'text' : '700'},
-                   {'fillStyle' : '#ffffff', 'text' : '1000'}
+                   {'fillStyle' : '#00aef0', 'text' : '20'},
+                   {'fillStyle' : '#ffffff', 'text' : '150'}
                 ],
                 'animation' :           // Specify the animation to use.
                 {
@@ -88,15 +88,15 @@ var count = 0;
                         if(avoid.indexOf(opt)<0){
                             if(opt == 5 ){
                                 avoid.push(opt)
-                                stopAt = (1 + Math.floor((Math.random() * 43)))
+                                stopAt = (3 + Math.floor((Math.random() * 43)))
                             }
                             else if(opt == 15 ){
                                 avoid.push(opt)
-                                stopAt = (136 + Math.floor((Math.random() * 43)))
+                                stopAt = (139 + Math.floor((Math.random() * 43)))
                             }
                             else if(opt == 50 ){
                                 avoid.push(opt)
-                                stopAt = (226 + Math.floor((Math.random() * 43)))
+                                stopAt = (229 + Math.floor((Math.random() * 43)))
                             }
                             console.log(stopAt)
                             break;
